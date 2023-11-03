@@ -52,7 +52,7 @@ class PersonUnitTests {
         Person john = new Person("John", "Doe");
         assertEquals("DOE john", john.toString());
         Person alice = new Person("Alice", "Bozeman");
-        assertEquals("BOZEMAN alicetest", alice.toString());
+        assertEquals("BOZEMAN alice", alice.toString());
     }
 
 }
